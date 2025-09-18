@@ -1,0 +1,160 @@
+* .t_fifa {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    background-color: lightgray;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    color: black;
+    border: solid black 2px;
+}
+
+.t_minecraft {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    background-color: lightgray;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    color: black;
+    border: solid black 2px;
+}
+
+.t_forza {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    background-color: lightgray;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    color: black;
+    border: solid black 2px;
+}
+
+.t_rocket {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    background-color: lightgray;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    color: black;
+    border: solid black 2px;
+}
+
+.intro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: black;
+}
+
+h2 {
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    color: black;;
+}
+
+img {
+    display: block;
+    margin: 25px auto 25px auto;
+    border-radius: 100px;
+    height: auto;
+    width: 60%;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+
+p {
+    border-radius: 25px;
+    color: black;
+}
+
+a {
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid black 2px;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: gray;
+    color: black;
+    font-size: 50px;
+}
+
+body {
+    margin: 100px;
+    background-color: darkgray;
+}
+
+.intro1 {
+    border: solid black 2px;
+    padding-bottom: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    background-color: lightgray;
+}
+
+@media (max-width: 700px) {
+
+    .t_fifa,
+    .t_minecraft,
+    .t_forza,
+    .t_rocket,
+    .intro,
+    .intro1 {
+        width: 90%;
+        max-width: 100%;
+        margin: 10px auto;
+        box-sizing: border-box;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    img {
+        width: 80%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 30px;
+        margin: 1px auto;
+    }
+
+    h1,
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    a {
+        display: block;
+        width: fit-content;
+        margin: 1px auto;
+        font-size: 16px;
+        padding: 8px 12px;
+        text-align: center;
+    }
+
+    body {
+        margin: 5px;
+    }
+}
